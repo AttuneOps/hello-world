@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "4bfd3cf1-6d5b-465c-b081-3f8ce5469e93", 
+    "key": "windowsuser", 
+    "name": "Windows User", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.WinOsCred"
+}

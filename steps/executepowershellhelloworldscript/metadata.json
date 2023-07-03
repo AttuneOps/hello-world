@@ -1,0 +1,16 @@
+{
+    "actionOnStepFail": null, 
+    "enabled": true, 
+    "externalUuid4": "c2dffc8b-9628-40e4-a1c2-972018f21660", 
+    "interpreter": 2, 
+    "interpreterCommand": "", 
+    "interpreterScriptExt": null, 
+    "interpreterScriptSyntax": "", 
+    "key": "executepowershellhelloworldscript", 
+    "name": "Execute PowerShell Hello World Script", 
+    "osCredKey": "windowsuser", 
+    "serverKey": "windowsnode", 
+    "successExitCode": 0, 
+    "timeout": 5, 
+    "type": "com.servertribe.attune.tuples.StepWinRmTuple"
+}
