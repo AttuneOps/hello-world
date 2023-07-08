@@ -180,36 +180,8 @@ machines.</strong></p>
 Windows Server by default. To enable WinRM on the machine you want to 
 connect to, follow the instructions 
 <a href="https://servertribe-attune.readthedocs.io/en/latest/howto/setup_winrm/setup_winrm_cifs_manually.html">here</a>.</p>
-<ol>
-<li>Create a New Project and include a description.</li>
-<li>
-<p>Create a new Blueprint and include a description.</p>
-<ul>
-<li>Create an <code>Execute Windows Script</code> Step in the Blueprint.</li>
-<li>
-<p>Create Parameters:</p>
-<ul>
-<li><code>Windows Node</code></li>
-<li><code>Windows Credentials</code></li>
-</ul>
-</li>
-<li>
-<p>Populate the newly created parameters into the Step.</p>
-</li>
-<li>Populate the Script: <code>Write-Host "Hello, World!"</code>.</li>
-<li>Write a comment for the Step.
-3. Create a Plan Tree</li>
-<li>Create a Plan</li>
-<li>Create Values for your Parameters:<ul>
-<li><code>Windows Node</code></li>
-<li><code>Windows Credentials</code></li>
-</ul>
-</li>
-<li>Populate the Values into the Plan
-4. Run the Job</li>
-</ul>
-</li>
-</ol>
+<p>If you haven't done so already, create a New Project and include a 
+description.</p>
                                     </p>
                                 </div>
                             </div>
