@@ -14,7 +14,14 @@
     <meta name="title"
           content="How to PowerShell Hello World - Attune Automation">
     <meta name="description"
-          content="Creating a PowerShell task to display "Hello World!" is simple.">
+          content="Creating a PowerShell task to display `Hello, World!` is simple.
+
+**You will require WinRM to be enabled when connecting to Windows 
+machines.**
+
+WinRM is disabled on Windows Desktop by default. WinRM is enabled on 
+Windows Server by default. To enable WinRM on the machine you want to 
+connect to, f">
     <meta name="robots"
           content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large">
 
@@ -22,13 +29,27 @@
     <meta property="og:type" content="article" />
     <meta property="og:title"
           content="HowTo PowerShell Hello World - Attune Automation" />
-    <meta property="og:description" content="Creating a PowerShell task to display "Hello World!" is simple." />
+    <meta property="og:description" content="Creating a PowerShell task to display `Hello, World!` is simple.
+
+**You will require WinRM to be enabled when connecting to Windows 
+machines.**
+
+WinRM is disabled on Windows Desktop by default. WinRM is enabled on 
+Windows Server by default. To enable WinRM on the machine you want to 
+connect to, f" />
     <meta property="og:site_name" content="Attune Automation" />
     <meta property="article:section" content="IT Instruction" />
 
     <meta name="twitter:title"
           content="How to PowerShell Hello World - Attune Automation" />
-    <meta name="twitter:description" content="Creating a PowerShell task to display "Hello World!" is simple." />
+    <meta name="twitter:description" content="Creating a PowerShell task to display `Hello, World!` is simple.
+
+**You will require WinRM to be enabled when connecting to Windows 
+machines.**
+
+WinRM is disabled on Windows Desktop by default. WinRM is enabled on 
+Windows Server by default. To enable WinRM on the machine you want to 
+connect to, f" />
 
     <link rel="icon" href="https://www.servertribe.com/wp-content/uploads/2020/10/cropped-server_tribe_favicon-32x32.png" sizes="32x32">
     <link rel="icon" href="https://www.servertribe.com/wp-content/uploads/2020/10/cropped-server_tribe_favicon-192x192.png" sizes="192x192">
@@ -95,7 +116,43 @@
     <div class="row">
         <div class="blueprint-description col px-0">
             <p class="text-left">
-                <p>Creating a PowerShell task to display "Hello World!" is simple.</p>
+                <p>Creating a PowerShell task to display <code>Hello, World!</code> is simple.</p>
+<p><strong>You will require WinRM to be enabled when connecting to Windows 
+machines.</strong></p>
+<p>WinRM is disabled on Windows Desktop by default. WinRM is enabled on 
+Windows Server by default. To enable WinRM on the machine you want to 
+connect to, follow the instructions 
+<a href="https://servertribe-attune.readthedocs.io/en/latest/howto/setup_winrm/setup_winrm_cifs_manually.html">here</a>.</p>
+<ol>
+<li>Create a New Project and include a description.</li>
+<li>
+<p>Create a new Blueprint and include a description.</p>
+<ul>
+<li>Create an <code>Execute Windows Script</code> Step in the Blueprint.</li>
+<li>
+<p>Create Parameters:</p>
+<ul>
+<li><code>Windows Node</code></li>
+<li><code>Windows Credentials</code></li>
+</ul>
+</li>
+<li>
+<p>Populate the newly created parameters into the Step.</p>
+</li>
+<li>Populate the Script: <code>Write-Host "Hello, World!"</code>.</li>
+<li>Write a comment for the Step.
+3. Create a Plan Tree</li>
+<li>Create a Plan</li>
+<li>Create Values for your Parameters:<ul>
+<li><code>Windows Node</code></li>
+<li><code>Windows Credentials</code></li>
+</ul>
+</li>
+<li>Populate the Values into the Plan
+4. Run the Job</li>
+</ul>
+</li>
+</ol>
             </p>
         </div>
     </div>
@@ -270,7 +327,29 @@
 
                     <div class="blueprint-description row">
                         <p>
-                            
+                            <h4>Step 1</h4>
+<p>Create a new <code>Blueprint</code> and include a description.</p>
+<ul>
+<li>Create an <code>Execute Windows Script</code> Step in the Blueprint.</li>
+<li>Create Parameters:<ul>
+<li><code>Windows Node</code></li>
+<li><code>Windows Credentials</code></li>
+</ul>
+</li>
+<li>Populate the newly created parameters into the Step.</li>
+<li>Populate the Script: <code>Write-Host "Hello, World!"</code>.</li>
+<li>Write a comment for the Step.</li>
+</ul>
+<h4>Step 2</h4>
+<p>After you've completed creating the Blueprint, navigate to Plan. 
+Create a <code>Plan Tree</code>.
+* Create a Plan
+* Create Values for your Parameters:
+    * <code>Windows Node</code>
+    * <code>Windows Credentials</code>
+* Populate the Values into the Plan</p>
+<h4>Step 3</h4>
+<p>Once the Plan is populated, navigate to Run. <code>Run</code> the Job.</p>
                         </p>
                     </div>
 
@@ -315,7 +394,7 @@ mstsc /admin /v:{windowsnode}
         <div class="col px-0">
             <pre>
                 <code class="language-sql py-0">
-Write-Host &quot;Hello World!&quot;
+Write-Host &quot;Hello, World!&quot;
                 </code>
             </pre>
         </div>

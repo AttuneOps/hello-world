@@ -1,0 +1,1 @@
+Node details of the Linux machine.
