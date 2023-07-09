@@ -165,29 +165,6 @@ process for both bash for Linux and PowerShell for Windows.</p>
                     <div class="row">
                         <div class="col-12 pt-3 pl-0">
                             <div class="card"
-                                 id="powershellhelloworld">
-                                <div class="card-body">
-                                    <a href="blueprints/powershellhelloworld.html">
-                                        <h3 class="card-title">
-                                            PowerShell: Hello, World!
-                                        </h3>
-                                    </a>
-                                    <p class="card-text">
-                                        <p>Creating a PowerShell task to display <code>Hello, World!</code> is simple.</p>
-<p><strong>You will require WinRM to be enabled when connecting to Windows 
-machines.</strong></p>
-<p>WinRM is disabled on Windows Desktop by default. WinRM is enabled on 
-Windows Server by default. To enable WinRM on the machine you want to 
-connect to, follow the instructions 
-<a href="https://servertribe-attune.readthedocs.io/en/latest/howto/setup_winrm/setup_winrm_cifs_manually.html">here</a>.</p>
-<p>If you haven't done so already, create a New Project and include a 
-description.</p>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 pt-3 pl-0">
-                            <div class="card"
                                  id="bashhelloworld">
                                 <div class="card-body">
                                     <a href="blueprints/bashhelloworld.html">
@@ -216,6 +193,54 @@ distributions is OpenSSH. Installing OpenSSH is a straightforward
 process that requires access to the terminal on both the server and 
 the connecting computer. It's important to note that Ubuntu does not 
 have an SSH server pre-installed by default.</p>
+<h4>Let's Get Started</h4>
+<p>If you haven't done so already, create a New Project and include a 
+description.</p>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 pt-3 pl-0">
+                            <div class="card"
+                                 id="powershellhelloworld">
+                                <div class="card-body">
+                                    <a href="blueprints/powershellhelloworld.html">
+                                        <h3 class="card-title">
+                                            PowerShell: Hello, World!
+                                        </h3>
+                                    </a>
+                                    <p class="card-text">
+                                        <p>Creating a PowerShell task to display <code>Hello, World!</code> is simple.</p>
+<h4>Connecting Attune to a Device</h4>
+<p>Attune connects to Windows devices using Windows Remote Management 
+(WinRM). WinRM is a protocol that facilitates secure connections 
+to remote Windows computers or servers using a command-line or 
+scripting interface.</p>
+<p>When a secure WinRM connection is established, you gain access to a 
+shell session, enabling you to manage the remote system by executing 
+commands from your local computer.</p>
+<p>WinRM is commonly employed by system administrators and IT 
+professionals who need to remotely administer Windows-based 
+machines in a secure manner. It provides a reliable means of 
+remote management, allowing for efficient troubleshooting, 
+configuration, and monitoring tasks.</p>
+<h4>Is WinRM is Enabled on the Device</h4>
+<p>In order to establish a WinRM connection, it is essential to have the 
+WinRM client and server components installed on the local and remote 
+Windows machines, respectively. WinRM is a built-in feature in Windows 
+operating systems, making it readily available for remote management 
+tasks.</p>
+<p>WinRM may require some configuration to ensure proper connectivity 
+and security settings. This can be done by running specific commands 
+or using configuration tools such as PowerShell remoting.</p>
+<p>WinRM is disabled on Windows Desktop by default. WinRM is enabled on 
+Windows Server by default. To enable WinRM on the machine you want to 
+connect to from Attune, follow the instructions 
+<a href="https://servertribe-attune.readthedocs.io/en/latest/howto/setup_winrm/setup_winrm_cifs_manually.html">here</a>.</p>
+<p>Once WinRM is enabled and properly configured, you can establish 
+secure remote connections and perform administrative tasks on the 
+remote Windows machines from your local computer using PowerShell or 
+other remote management tools that support WinRM.</p>
 <h4>Let's Get Started</h4>
 <p>If you haven't done so already, create a New Project and include a 
 description.</p>
