@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": null, 
+    "enabled": true, 
+    "externalUuid4": "ef6a35d7-c844-4b21-b111-ca85ee75c0a0", 
+    "interpreter": 1, 
+    "key": "executelinuxhelloworldscript", 
+    "name": "Execute Linux Hello World Script", 
+    "osCredKey": "linuxuser", 
+    "serverKey": "linuxnode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}
