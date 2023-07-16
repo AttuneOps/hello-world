@@ -149,15 +149,16 @@ description.
 
 
 
+
 ## Parameters
 
 
 | Name | Type | Script Reference | Comment |
 | ---- | ---- | ---------------- | ------- |
-| Windows User | Windows Credential | `windowsuser` | Windows Credentials to connect to the machine remotely. |
-| Windows Node | Windows Node | `windowsnode` | Node details of the Windows machine. |
 | Linux Node | Linux/Unix Node | `linuxnode` | Node details of the Linux machine. |
 | Linux User | Linux/Unix Credential | `linuxuser` | Linux Credentials to connect to the machine remotely. |
+| Windows Node | Windows Node | `windowsnode` | Node details of the Windows machine. |
+| Windows User | Windows Credential | `windowsuser` | Windows Credentials to connect to the machine remotely. |
 
 
 
