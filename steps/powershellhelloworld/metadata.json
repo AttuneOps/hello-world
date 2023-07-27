@@ -11,6 +11,6 @@
             "stepKey": "executepowershellhelloworldscript"
         }
     ], 
-    "name": "PowerShell: Hello, World!", 
+    "name": "PowerShell Hello World", 
     "type": "com.servertribe.attune.tuples.StepGroupTuple"
 }

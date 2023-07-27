@@ -11,6 +11,6 @@
             "stepKey": "executelinuxhelloworldscript"
         }
     ], 
-    "name": "bash: Hello, World!", 
+    "name": "bash Hello World", 
     "type": "com.servertribe.attune.tuples.StepGroupTuple"
 }

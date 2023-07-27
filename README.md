@@ -63,7 +63,7 @@ This Project contains the following Blueprints.
 
 
 
-### bash: Hello, World!
+### bash Hello World
 
 Creating a bash task to display `Hello, World!` is simple.
 
@@ -97,7 +97,7 @@ have an SSH server pre-installed by default.
 If you haven't done so already, create a New Project and include a 
 description.
 
-### PowerShell: Hello, World!
+### PowerShell Hello World
 
 Creating a PowerShell task to display `Hello, World!` is simple.
 
@@ -145,7 +145,6 @@ other remote management tools that support WinRM.
 
 If you haven't done so already, create a New Project and include a 
 description.
-
 
 
 
