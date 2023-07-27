@@ -63,7 +63,7 @@ This Project contains the following Blueprints.
 
 
 
-### bash Hello World
+### Hello World in bash
 
 Creating a bash task to display `Hello, World!` is simple.
 
@@ -97,7 +97,7 @@ have an SSH server pre-installed by default.
 If you haven't done so already, create a New Project and include a 
 description.
 
-### PowerShell Hello World
+### Hello World in PowerShell
 
 Creating a PowerShell task to display `Hello, World!` is simple.
 

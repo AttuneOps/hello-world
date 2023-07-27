@@ -2,15 +2,15 @@
     "actionOnStepFail": "stop", 
     "concurrency": 1, 
     "enabled": true, 
-    "externalUuid4": "a8b48d9f-1650-449c-9cce-fc5ea150be74", 
+    "externalUuid4": "308a3884-3d78-426d-a1c5-cdc61d62733a", 
     "isBlueprint": true, 
-    "key": "powershellhelloworld", 
+    "key": "helloworldinbash", 
     "links": [
         {
             "order": 0, 
-            "stepKey": "executepowershellhelloworldscript"
+            "stepKey": "executelinuxhelloworldscript"
         }
     ], 
-    "name": "PowerShell Hello World", 
+    "name": "Hello World in bash", 
     "type": "com.servertribe.attune.tuples.StepGroupTuple"
 }
