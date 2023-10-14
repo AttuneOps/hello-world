@@ -29,3 +29,7 @@ have an SSH server pre-installed by default.
 
 If you haven't done so already, create a New Project and include a 
 description.
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=LtnkjqieUIw
+" target="_blank"><img src="http://img.youtube.com/vi/LtnkjqieUIw/0.jpg" 
+alt="Hello World bash Tutorial" width="240" height="180" border="10" /></a>
