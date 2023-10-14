@@ -10,7 +10,7 @@
     <a href="https://www.servertribe.com/community-edition/">
         <img src="https://img.shields.io/badge/download-latest-brightgreen.svg" /></a>
 </p>
-<p align="right">
+<p align="center">
   <a href="https://www.servertribe.com/" target="_blank">
     <img src="https://www.servertribe.com/wp-content/uploads/2020/10/cropped-server_tribe_favicon.png" alt="Attune Automation | Powered by ServerTribe"  width="100" height="100" />
   </a>
