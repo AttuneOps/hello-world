@@ -1,6 +1,6 @@
 
 
-<p align=""center>
+<p align="center">
     <a href="http://doc.servertribe.com">
         <img src="https://img.shields.io/badge/docs-latest-brightgreen.svg" /></a>
     <a href="http://discord.servertribe.com">
