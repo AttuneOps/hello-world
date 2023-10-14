@@ -1,6 +1,6 @@
 
 
-<img src="servertribe.com/wp-content/uploads/2022/06/AttuneLogoV2_powered_by.png" alt="Attune Automation| Powered by ServerTribe"/>
+<img src="https://www.servertribe.com/wp-content/uploads/2020/10/cropped-server_tribe_favicon.png" alt="Attune Automation | Powered by ServerTribe"/>
 [![Docs](https://img.shields.io/badge/docs-latest-brightgreen.svg)](http://doc.servertribe.com)
 [![Discord](https://img.shields.io/discord/844971127703994369)](http://discord.servertribe.com)
 [![Docs](https://img.shields.io/badge/videos-watch-brightgreen.svg)](https://www.youtube.com/@servertribe)
@@ -33,7 +33,9 @@ Easy-to-understand steps using common scripting languages that System
 Administrators are already familiar with. It is an agentless solution that
 connects to your devices with WinRM and ssh protocols.
 
-<img src="${imgAttuneAutomation}" alt="Attune Automation"/>
+
+<img src="https://www.servertribe.com/wp-content/uploads/2023/10/Website-GIFs-Attune-Automation-iMac.gif" alt="Attune Automation"/>
+
 
 Attune's game-changing ability to fix scripts and resume automation jobs from
 where they stopped empowers you to create automation significantly faster
@@ -58,7 +60,7 @@ Paste in your existing scripts and get started
 The **Attune Community Edition** can be
 [downloaded](https://www.servertribe.com/download-attune-registration/)
 for free from our
-[ServerTribe website](https://www.servertribe.com/comunity-edition/).
+[ServerTribe website](https://www.servertribe.com/download-attune-registration/).
 
 You can learn more about Attune through
 [ServerTribe's YouTube Channel](https://www.youtube.com/@servertribe).
@@ -75,6 +77,45 @@ To clone this project into your own instance of Attune, follow the
 
 This Project contains the following Blueprints.
 
+
+
+### Hello World in bash
+
+Creating a bash task to display `Hello, World!` is simple.
+
+#### Connecting Attune to a Device
+
+Attune connects to Linux devices using ssh. The Secure Shell (SSH), 
+also known as Secure Socket Shell, is a protocol that enables 
+secure connections to remote computers or servers through a text-based 
+interface.
+
+Once a secure SSH connection is established, a shell session is 
+initiated, allowing you to interact with the server by entering 
+commands within the client on your local computer.
+
+SSH is primarily used by system and network administrators, as 
+well as individuals who require a highly secure method of remotely 
+managing computers.
+
+#### Is SSH is Enabled on the Device
+
+To establish an SSH connection, it is necessary to have both a client 
+and a server component installed on the local and remote machines, 
+respectively. A commonly utilised open source SSH tool for Linux 
+distributions is OpenSSH. Installing OpenSSH is a straightforward 
+process that requires access to the terminal on both the server and 
+the connecting computer. It's important to note that Ubuntu does not 
+have an SSH server pre-installed by default.
+
+#### Let's Get Started
+
+If you haven't done so already, create a New Project and include a 
+description.
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=LtnkjqieUIw
+" target="_blank"><img src="http://img.youtube.com/vi/LtnkjqieUIw/0.jpg" 
+alt="Hello World bash Tutorial" width="240" height="180" border="10" /></a>
 
 
 ### Hello World in PowerShell
@@ -125,45 +166,6 @@ other remote management tools that support WinRM.
 
 If you haven't done so already, create a New Project and include a 
 description.
-
-### Hello World in bash
-
-Creating a bash task to display `Hello, World!` is simple.
-
-#### Connecting Attune to a Device
-
-Attune connects to Linux devices using ssh. The Secure Shell (SSH), 
-also known as Secure Socket Shell, is a protocol that enables 
-secure connections to remote computers or servers through a text-based 
-interface.
-
-Once a secure SSH connection is established, a shell session is 
-initiated, allowing you to interact with the server by entering 
-commands within the client on your local computer.
-
-SSH is primarily used by system and network administrators, as 
-well as individuals who require a highly secure method of remotely 
-managing computers.
-
-#### Is SSH is Enabled on the Device
-
-To establish an SSH connection, it is necessary to have both a client 
-and a server component installed on the local and remote machines, 
-respectively. A commonly utilised open source SSH tool for Linux 
-distributions is OpenSSH. Installing OpenSSH is a straightforward 
-process that requires access to the terminal on both the server and 
-the connecting computer. It's important to note that Ubuntu does not 
-have an SSH server pre-installed by default.
-
-#### Let's Get Started
-
-If you haven't done so already, create a New Project and include a 
-description.
-
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=LtnkjqieUIw
-" target="_blank"><img src="http://img.youtube.com/vi/LtnkjqieUIw/0.jpg" 
-alt="Hello World bash Tutorial" width="240" height="180" border="10" /></a>
-
 
 
 
