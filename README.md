@@ -1,16 +1,20 @@
 
 
-
-[![Docs](https://img.shields.io/badge/docs-latest-brightgreen.svg)](http://doc.servertribe.com)
-[![Discord](https://img.shields.io/discord/844971127703994369)](http://discord.servertribe.com)
-[![Docs](https://img.shields.io/badge/videos-watch-brightgreen.svg)](https://www.youtube.com/@servertribe)
-[![Generic badge](https://img.shields.io/badge/download-latest-brightgreen.svg)](https://www.servertribe.com/community-edition/)
-
-<div align="right">
+<p align=""center>
+    <a href="http://doc.servertribe.com">
+        <img src="https://img.shields.io/badge/docs-latest-brightgreen.svg" /></a>
+    <a href="http://discord.servertribe.com">
+        <img src="https://img.shields.io/discord/844971127703994369" /></a>
+    <a href="https://www.youtube.com/@servertribe">
+        <img src="https://img.shields.io/badge/videos-watch-brightgreen.svg" /></a>
+    <a href="https://www.servertribe.com/community-edition/">
+        <img src="https://img.shields.io/badge/download-latest-brightgreen.svg" /></a>
+</p>
+<p align="right">
   <a href="https://www.servertribe.com/" target="_blank">
     <img src="https://www.servertribe.com/wp-content/uploads/2020/10/cropped-server_tribe_favicon.png" alt="Attune Automation | Powered by ServerTribe"  width="100" height="100" />
   </a>
-</div>
+</p>
 
 # Hello World Tutorials
 
@@ -40,11 +44,11 @@ Administrators are already familiar with. It is an agentless solution that
 connects to your devices with WinRM and ssh protocols.
 
 
-<div align="center">
+<p align="center">
   <a href="https://www.servertribe.com/" target="_blank">
     <img src="https://www.servertribe.com/wp-content/uploads/2022/08/attune_computer.png" alt="Attune Automation | Powered by ServerTribe" width="75%"/>
   </a>
-</div>
+</p>
 
 
 Attune's game-changing ability to fix scripts and resume automation jobs from
