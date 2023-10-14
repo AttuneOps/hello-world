@@ -1,7 +1,5 @@
 
 
-
-
 <img src="servertribe.com/wp-content/uploads/2022/06/AttuneLogoV2_powered_by.png" alt="Attune Automation| Powered by ServerTribe"/>
 [![Docs](https://img.shields.io/badge/docs-latest-brightgreen.svg)](http://doc.servertribe.com)
 [![Discord](https://img.shields.io/discord/844971127703994369)](http://discord.servertribe.com)
@@ -20,8 +18,6 @@ This project will show you how to **Create and Run** a `Hello, World!`
 process for both bash for Linux and PowerShell for Windows.
 
 This won't take long, have fun!
-
-
 
 
 
@@ -69,16 +65,10 @@ You can learn more about Attune through
 
 
 
-
-
-
-
 # Clone this Project
 
 To clone this project into your own instance of Attune, follow the
 [Clone a GIT Project How To Instructions](https://servertribe-attune.readthedocs.io/en/latest/howto/design_workspace/clone_project.html).
-
-
 
 
 ## Blueprints
@@ -172,9 +162,6 @@ description.
 
 
 
-
-
-
 # Contribute to this Project
 
 If you’d like to contribute and help improve these projects, please fork our
@@ -194,7 +181,6 @@ and connect with like-minded individuals who share your passion. Engage in
 lively discussions, gain valuable insights, and stay updated on the latest
 trends in our industry. Don't miss out on this opportunity to network, learn,
 and grow together.
-
 
 ---
 
