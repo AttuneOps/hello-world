@@ -42,7 +42,7 @@ connects to your devices with WinRM and ssh protocols.
 
 <div align="center">
   <a href="https://www.servertribe.com/" target="_blank">
-    <img src="https://www.servertribe.com/wp-content/uploads/2023/10/Website-GIFs-Attune-Automation-iMac.gif" alt="Attune Automation | Powered by ServerTribe" width="75%"/>
+    <img src="https://www.servertribe.com/wp-content/uploads/2022/08/attune_computer.png" alt="Attune Automation | Powered by ServerTribe" width="75%"/>
   </a>
 </div>
 
